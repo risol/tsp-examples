@@ -1,12 +1,17 @@
-# TSP Official Website
+# TSP Website Example
 
-This is the official website for [TSP (TypeScript Server Pages)](https://github.com/risol/tsp).
+This is a sample website built with [TSP (TypeScript Server Pages)](https://github.com/risol/tsp). It demonstrates how to create a website using TSP framework.
 
 ## Quick Start
 
 ```bash
-# Start the development server
-deno task start
+# Download and extract TSP
+curl -L https://github.com/risol/tsp/releases/latest/download/tsp-linux-x64.tar.gz -o tsp.tar.gz
+tar -xzf tsp.tar.gz
+cd tsp-linux-x64
+
+# Start the server with this project
+./tspserver --root /path/to/tsp-examples --port 9000
 
 # Visit http://localhost:9000
 ```
